@@ -74,7 +74,8 @@ def start():
         'http://zhihu.jwlchina.cn/get_company_count',
         'http://zhihu.jwlchina.cn/get_agree_count',
         'http://zhihu.jwlchina.cn/get_follower_count',
-        'http://zhihu.jwlchina.cn/get_nickname_count'
+        'http://zhihu.jwlchina.cn/get_nickname_count',
+        'http://zhihu.jwlchina.cn/get_job_count'
     ]
     for url in urls:
         headers['Cookie'] = cookie
